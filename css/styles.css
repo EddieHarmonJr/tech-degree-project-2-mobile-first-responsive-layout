@@ -1,10 +1,15 @@
-.student-section {
+body {
   background-color: lightgrey;
+
+}
+
+.student-section {
   text-align: center;
 }
 
 .portfolio-section {
   text-align: center;
+  background-color: white;
 }
 
 .footer-section {
@@ -26,11 +31,26 @@ ul li {
   padding-right: 70px;
 }
 
-img {
-  
+
+.student-photo {
+  float: right;
+  margin: 100px;
+}
+
+.student-bio {
+  float: left;
+  margin: 100px;
 }
 
 
+
+/* ----- FLOAT CLEARFIX ------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /* ----- MEDIA QUERIES ------ */
