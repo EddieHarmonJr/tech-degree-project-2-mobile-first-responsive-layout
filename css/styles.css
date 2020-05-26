@@ -1,14 +1,17 @@
 .student-section {
   background-color: lightgrey;
+  text-align: center;
 }
 
 .portfolio-section {
-
-
+  text-align: center;
 }
 
 .footer-section {
   background-color: lightgrey;
+  padding-bottom: 50px;
+  border-bottom: 2px solid gray;
+  text-align: center;
 }
 
 p {
@@ -17,6 +20,14 @@ p {
 
 ul li {
   list-style: none;
+  /* background-color: whitesmoke; */
+  display: inline-block;
+  margin-right: -0.3125em; /* 5px */
+  padding-right: 70px;
+}
+
+img {
+  
 }
 
 
