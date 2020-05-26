@@ -1,5 +1,18 @@
 .student-section {
+  background-color: lightgrey;
+}
 
+.portfolio-section {
+
+
+}
+
+.footer-section {
+  background-color: lightgrey;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul li {
