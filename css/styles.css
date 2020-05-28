@@ -1,6 +1,22 @@
+* {
+  box-sizing: border-box;
+  /* border: solid 2px red; */
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 body {
   background-color: lightgrey;
 
+}
+
+img {
+  /* max width & height properties add responsiveness to images */
+  max-width: 100%; 
+  height: auto; 
 }
 
 .student-section {
@@ -26,20 +42,22 @@ p {
 ul li {
   list-style: none;
   /* background-color: whitesmoke; */
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: -0.3125em; /* 5px */
   padding-right: 70px;
 }
 
 
 .student-photo {
-  float: right;
-  margin: 100px;
+  max-width: 50%;
+  /* float: right; */
+  /* margin: 100px; */
 }
 
 .student-bio {
-  float: left;
-  margin: 100px;
+  /* float: left; */
+  /* max-width: 50%; */
+  /* margin: 100px; */
 }
 
 
@@ -55,15 +73,27 @@ ul li {
 
 /* ----- MEDIA QUERIES ------ */
 
+@media (min-width: 769px) {
+  .container {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
 /* mobile layout media query */
 
-@media (max-width: 320px) {
-
-}
+/* @media (max-width: 320px) {
+  
+} */
 
 
 /* tablet layout media query */
 
+/
 
 
 /* desktop layout media query */
+
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  
+} */
