@@ -40,11 +40,17 @@ img {
 .footer-section {
   background-color: whitesmoke;
   padding-bottom: 50px;
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid lightgray;
   text-align: center;
 }
 
 .footer-nav {
+  background-color: whitesmoke;
+  /* display: inline-block; */
+}
+
+.contact-headline {
+  padding-top: 50px;
 }
 
 /* #phone,
@@ -67,6 +73,7 @@ ul li {
   /* border: 2px solid green; */
   background-color: white;
   margin-bottom: 2px;
+  margin-right: 10px;
   padding: 5px;
 }
 
@@ -96,12 +103,12 @@ ul li {
 
 /* ----- MEDIA QUERIES ------ */
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
   .container {
     max-width: 70%;
     margin: 0 auto;
   }
-}
+} */
 
 /* mobile layout media query */
 
@@ -112,8 +119,42 @@ ul li {
 
 /* tablet layout media query */
 
-/
+@media (min-width: 321px) and (max-width: 768px) {
 
+  .marketing-photo-div,
+  .search-photo-div,
+  .travel-photo-div,
+  .map-photo-div,
+  .gallery-photo-div,
+  .calculator-photo-div {
+    width: 46.5%;
+  }
+
+
+    .marketing-photo-div {
+      float: left;
+    }
+    
+    .search-photo-div {
+      float: right
+    }
+    
+    .travel-photo-div {
+      float: left;
+    }
+
+    .map-photo-div {
+      float: right
+    }
+
+    .gallery-photo-div {
+      float: left;
+    }
+
+    .calculator-photo-div {
+      float: right
+    }
+}
 
 /* desktop layout media query */
 
