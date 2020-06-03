@@ -9,8 +9,15 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color: white;
+}
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 img {
@@ -22,20 +29,30 @@ img {
 }
 
 .student-section {
+  background-color: whitesmoke;
   text-align: center;
 }
 
 .portfolio-section {
   text-align: center;
-  background-color: white;
 }
 
 .footer-section {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   padding-bottom: 50px;
   border-bottom: 2px solid gray;
   text-align: center;
 }
+
+.footer-nav {
+}
+
+/* #phone,
+#email {
+  text-decoration: none;
+} */
+
+
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -47,6 +64,10 @@ ul li {
   /* display: inline-block; */
   margin-right: -0.3125em; /* 5px */
   padding-right: 70px;
+  /* border: 2px solid green; */
+  background-color: white;
+  margin-bottom: 2px;
+  padding: 5px;
 }
 
 
