@@ -108,18 +108,68 @@ ul li {
     max-width: 70%;
     margin: 0 auto;
   }
+
+  .student-name {
+    float: left;
+  }
+
+  nav {
+    float: right;
+  }
+
+  nav ul li {
+    float: left;
+    background-color: whitesmoke;
+  }
+
 } */
 
 /* mobile layout media query */
 
-/* @media (max-width: 320px) {
-  
-} */
+@media (max-width: 320px) {
+  .bottom-nav {
+    display: none;
+  }
+}
 
 
 /* tablet layout media query */
 
 @media (min-width: 321px) and (max-width: 768px) {
+
+.student-name {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  background-color: whitesmoke;
+}
+
+.student-section {
+  padding: 30px 25px;
+  margin-bottom: 50px;
+}
+
+.portfolio-section {
+  background-color: white;
+}
+
+.student-photo {
+  float: right;
+  width: 40%;
+  margin: 20px;
+}
+
+.student-bio {
+  float: left;
+  width: 50%;
+  margin: 10px;
+}
 
   .marketing-photo-div,
   .search-photo-div,
@@ -128,8 +178,8 @@ ul li {
   .gallery-photo-div,
   .calculator-photo-div {
     width: 46.5%;
+    background-color: white;
   }
-
 
     .marketing-photo-div {
       float: left;
@@ -154,6 +204,11 @@ ul li {
     .calculator-photo-div {
       float: right
     }
+
+    .back-to-top {
+      display: none;
+    }
+    
 }
 
 /* desktop layout media query */
