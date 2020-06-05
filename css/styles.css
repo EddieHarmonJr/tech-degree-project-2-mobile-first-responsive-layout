@@ -213,6 +213,43 @@ nav ul li {
 
 /* desktop layout media query */
 
-/* @media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .marketing-photo-div,
+  .search-photo-div,
+  .travel-photo-div,
+  .map-photo-div,
+  .gallery-photo-div,
+  .calculator-photo-div {
+    width: 31%;
+    background-color: white;
+  }
+
+  .marketing-photo-div {
+    float: left;
+  }
   
-} */
+  .search-photo-div {
+    float: left;
+  }
+  
+  .travel-photo-div {
+    float: right;
+  }
+
+  .map-photo-div {
+    float: left;
+  }
+
+  .gallery-photo-div {
+    float: left;
+  }
+
+  .calculator-photo-div {
+    float: left;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+} 
