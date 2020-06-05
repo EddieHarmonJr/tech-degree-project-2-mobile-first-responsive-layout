@@ -135,7 +135,7 @@ ul li {
 
 /* tablet layout media query */
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 1023px) {
 
 .student-name {
   float: left;
@@ -211,9 +211,36 @@ nav ul li {
     
 }
 
+
 /* desktop layout media query */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1024px) {
+
+  .student-name {
+    float: left;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul li {
+    float: left;
+    background-color: whitesmoke;
+  }
+
+  .student-photo {
+    float: right;
+    width: 40%;
+    margin: 20px;
+  }
+
+  .student-bio {
+    float: left;
+    width: 50%;
+    margin: 10px;
+  }
+
   .marketing-photo-div,
   .search-photo-div,
   .travel-photo-div,
