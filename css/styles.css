@@ -6,6 +6,7 @@
 .container {
   padding-left: 1em;
   padding-right: 1em;
+  text-align: center;
 }
 
 body {
@@ -186,7 +187,7 @@ nav ul li {
     }
     
     .search-photo-div {
-      float: right
+      float: right;
     }
     
     .travel-photo-div {
@@ -194,7 +195,7 @@ nav ul li {
     }
 
     .map-photo-div {
-      float: right
+      float: right;
     }
 
     .gallery-photo-div {
@@ -202,7 +203,7 @@ nav ul li {
     }
 
     .calculator-photo-div {
-      float: right
+      float: right;
     }
 
     .back-to-top {
