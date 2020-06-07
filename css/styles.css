@@ -261,11 +261,12 @@ nav ul li {
   }
   
   .travel-photo-div {
-    float: right;
+    float: left;
   }
 
   .map-photo-div {
     float: left;
+    
   }
 
   .gallery-photo-div {
@@ -279,5 +280,10 @@ nav ul li {
   .back-to-top {
     display: none;
   }
+
+  .column {    
+      margin-right: 1em;
+      margin-left: 1em;
+    }
 
 } 
