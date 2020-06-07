@@ -41,17 +41,28 @@ img {
 .footer-section {
   background-color: whitesmoke;
   padding-bottom: 50px;
-  border-bottom: 1px solid lightgray;
   text-align: center;
 }
 
 .footer-nav {
   background-color: whitesmoke;
+  border-top: 1px solid lightgray;
+  border
   /* display: inline-block; */
 }
 
 .contact-headline {
   padding-top: 50px;
+}
+
+nav {
+display: inline-block;
+margin-right: 25px;
+}
+
+.student-name {
+  display: inline-block;
+  margin-left: 25px;
 }
 
 /* #phone,
@@ -232,7 +243,7 @@ nav ul li {
 
   .student-photo {
     float: right;
-    width: 40%;
+    width: 25%;
     margin: 20px;
   }
 
