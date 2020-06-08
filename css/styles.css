@@ -48,7 +48,8 @@ img {
 .footer-nav {
   background-color: whitesmoke;
   border-top: 1px solid lightgray;
-  border
+  width: 85%;
+  margin: auto;
   /* display: inline-block; */
 }
 
@@ -58,12 +59,12 @@ img {
 
 nav {
 display: inline-block;
-margin-right: 25px;
+/* margin-right: 25px; */
 }
 
 .student-name {
   display: inline-block;
-  margin-left: 25px;
+  /* margin-left: 25px; */
 }
 
 /* #phone,
@@ -103,6 +104,10 @@ ul li {
   /* margin: 100px; */
 }
 
+.bottom-nav {
+  display: none;
+}
+
 
 
 /* ----- FLOAT CLEARFIX ------ */
@@ -116,46 +121,19 @@ ul li {
 
 /* ----- MEDIA QUERIES ------ */
 
-/* @media (min-width: 769px) {
-  .container {
-    max-width: 70%;
-    margin: 0 auto;
-  }
 
-  .student-name {
-    float: left;
-  }
+/* TABLET layout media query */
 
-  nav {
-    float: right;
-  }
-
-  nav ul li {
-    float: left;
-    background-color: whitesmoke;
-  }
-
-} */
-
-/* mobile layout media query */
-
-@media (max-width: 320px) {
-  .bottom-nav {
-    display: none;
-  }
-}
-
-
-/* tablet layout media query */
-
-@media (min-width: 321px) and (max-width: 1023px) {
+@media (min-width: 768px) {
 
 .student-name {
   float: left;
+  text-align: center;
 }
 
 nav {
   float: right;
+  text-align: center;
 }
 
 nav ul li {
@@ -225,7 +203,7 @@ nav ul li {
 }
 
 
-/* desktop layout media query */
+/* DESKTOP layout media query */
 
 @media (min-width: 1024px) {
 
