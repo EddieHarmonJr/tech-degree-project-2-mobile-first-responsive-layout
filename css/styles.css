@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* border: solid 2px red; */
 }
 
 .container {
@@ -24,8 +23,8 @@ a:visited {
 
 img {
   /* max width & height properties add responsiveness to images */
-  max-width: 100%; 
-  height: auto; 
+  max-width: 100%;
+  height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -58,20 +57,14 @@ img {
 }
 
 nav {
-display: inline-block;
-/* margin-right: 25px; */
+  display: inline-block;
+  /* margin-right: 25px; */
 }
 
 .student-name {
   display: inline-block;
   /* margin-left: 25px; */
 }
-
-/* #phone,
-#email {
-  text-decoration: none;
-} */
-
 
 
 p {
@@ -82,7 +75,8 @@ ul li {
   list-style: none;
   /* background-color: whitesmoke; */
   /* display: inline-block; */
-  margin-right: -0.3125em; /* 5px */
+  margin-right: -0.3125em;
+  /* 5px */
   padding-right: 70px;
   /* border: 2px solid green; */
   background-color: white;
@@ -104,11 +98,6 @@ ul li {
   /* margin: 100px; */
 }
 
-.bottom-nav {
-  display: none;
-}
-
-
 
 /* ----- FLOAT CLEARFIX ------ */
 
@@ -121,46 +110,61 @@ ul li {
 
 /* ----- MEDIA QUERIES ------ */
 
+/* MOBILE layout media query */
+@media (max-width: 320px) {
+  .bottom-nav {
+    display: none;
+  }
+}
+
 
 /* TABLET layout media query */
 
 @media (min-width: 768px) {
 
-.student-name {
-  float: left;
-  text-align: center;
-}
+  .student-name {
+    /* float: left; */
+    margin: auto;
+  }
 
-nav {
-  float: right;
-  text-align: center;
-}
+  nav {
+    /* float: right; */
+    margin: auto;
+  }
 
-nav ul li {
-  float: left;
-  background-color: whitesmoke;
-}
+  nav ul li {
+    /* float: left; */
+    margin: auto;
+    display: inline-block;
+    background-color: whitesmoke;
+    padding-right: 25px;
+  }
 
-.student-section {
-  padding: 30px 25px;
-  margin-bottom: 50px;
-}
+  .nav-top {
+    display: block;
+    text-align: center;
+  }
 
-.portfolio-section {
-  background-color: white;
-}
+  .student-section {
+    padding: 30px 25px;
+    margin-bottom: 50px;
+  }
 
-.student-photo {
-  float: right;
-  width: 40%;
-  margin: 20px;
-}
+  .portfolio-section {
+    background-color: white;
+  }
 
-.student-bio {
-  float: left;
-  width: 50%;
-  margin: 10px;
-}
+  .student-photo {
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  .student-bio {
+    float: left;
+    width: 50%;
+    margin: 10px;
+  }
 
   .marketing-photo-div,
   .search-photo-div,
@@ -172,34 +176,42 @@ nav ul li {
     background-color: white;
   }
 
-    .marketing-photo-div {
-      float: left;
-    }
-    
-    .search-photo-div {
-      float: right;
-    }
-    
-    .travel-photo-div {
-      float: left;
-    }
+  .marketing-photo-div {
+    float: left;
+  }
 
-    .map-photo-div {
-      float: right;
-    }
+  .search-photo-div {
+    float: right;
+  }
 
-    .gallery-photo-div {
-      float: left;
-    }
+  .travel-photo-div {
+    float: left;
+  }
 
-    .calculator-photo-div {
-      float: right;
-    }
+  .map-photo-div {
+    float: right;
+  }
 
-    .back-to-top {
-      display: none;
-    }
-    
+  .gallery-photo-div {
+    float: left;
+  }
+
+  .calculator-photo-div {
+    float: right;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .student-name-bottom {
+    margin-right: 160px;
+  }
+
+  .bottom-nav {
+    margin-left: 10px;
+  }
+
 }
 
 
@@ -207,14 +219,14 @@ nav ul li {
 
 @media (min-width: 1024px) {
 
-  .student-name {
+  .student-name-top {
     float: left;
   }
-  
+
   nav {
     float: right;
   }
-  
+
   nav ul li {
     float: left;
     background-color: whitesmoke;
@@ -223,13 +235,15 @@ nav ul li {
   .student-photo {
     float: right;
     width: 25%;
-    margin: 20px;
+    margin-top: 100px;
   }
 
   .student-bio {
     float: left;
-    width: 50%;
-    margin: 10px;
+    width: 30%;
+    padding: 15px;
+    margin-top: 25px;
+    margin-right: 225px;
   }
 
   .marketing-photo-div,
@@ -245,18 +259,17 @@ nav ul li {
   .marketing-photo-div {
     float: left;
   }
-  
+
   .search-photo-div {
     float: left;
   }
-  
+
   .travel-photo-div {
     float: left;
   }
 
   .map-photo-div {
     float: left;
-    
   }
 
   .gallery-photo-div {
@@ -271,9 +284,9 @@ nav ul li {
     display: none;
   }
 
-  .column {    
-      margin-right: 1em;
-      margin-left: 1em;
-    }
+  .column {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
 
-} 
+}
