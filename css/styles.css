@@ -202,11 +202,15 @@ ul li {
   }
 
   .student-name-bottom {
-    margin-right: 160px;
+    /* margin-right: 160px; */
+    float: left;
+    width: 25%;
   }
 
   .bottom-nav {
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    display: block;
+
   }
 
 }
