@@ -102,7 +102,7 @@ ul li {
 
 /* ----- FLOAT CLEARFIX ------ */
 
-.group:after {
+.group::after {
   content: "";
   display: table;
   clear: both;
