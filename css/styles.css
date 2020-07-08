@@ -179,6 +179,7 @@ ul li {
   .calculator-photo-div {
     width: 46.5%;
     background-color: white;
+    min-height: 425px;
   }
 
   .marketing-photo-div {
