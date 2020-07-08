@@ -99,6 +99,17 @@ ul li {
   /* margin: 100px; */
 }
 
+.student-name-bottom {
+  /* margin-right: 160px; */
+  float: left;
+  width: 25%;
+}
+
+.back-to-top {
+  display: block;
+  float: right;
+}
+
 
 /* ----- FLOAT CLEARFIX ------ */
 
@@ -111,6 +122,8 @@ ul li {
 .bottom-nav {
   display: none;
 }
+
+
 
 
 /* ----- MEDIA QUERIES ------ */
